@@ -35,13 +35,19 @@ Embedded Coder
 
 Aparecerá una ventana emergente indicando que MATLAB Coder requiere añadir un par de cosas, presione "Add".
 
-Recomendación: seleccionar "Create symbolic links to MATLAB scripts in: " para que cree un acceso directo.
+Recomendación: seleccionar "Create symbolic links to MATLAB scripts in: " para que cree un acceso directo en la terminal.
 
 Finalmente haga click en "Begin Install".
 
-## Espacio y Duración
+## Paso 3.5: Espacio y Duración
 
 Se instalará aproximadamente 8.73 GB, la duración dependerá de la conexión a internet que tengan en su momento
+
+## Paso 4: Credenciales
+
+Nuevamente hay que colocar las credenciales, en caso de no emerger la ventana de matlab en la terminal coloque:
+
+matlab
 
 # Materiales para el minitaller
 
