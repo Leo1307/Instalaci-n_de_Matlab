@@ -10,7 +10,7 @@ En caso de no tener sesión se debe registrar usando el correo estudiantil, pues
 
 ## Paso 2: Descargar MATLAB
 
-Una vez estando en el menú principal, se selecciona la opción de "instalar Matlab", se abrirá una nueva ventana e inmediatamente reconoce el sistema operativo, por lo cual únicamente se le da a "Descargar para Linux".
+Estando en el menú principal, se selecciona la opción de "instalar Matlab", se abrirá una nueva ventana para descargar e inmediatamente reconoce el sistema operativo que se usa, por lo cual únicamente se le da a "Descargar para Linux".
 
 ![Descargar](https://github.com/Leo1307/Instalaci-n_de_Matlab/blob/main/Fig/Instalar_matlab.png)
 
@@ -20,15 +20,16 @@ Luego, extraer el archivo .zip que se descargó (puede extraerlo en la ubicació
 
 Abra la terminal estando en el folder extraído y ejecute el comando
 
+```bash
 sudo ./install
-
+```
 A continuación, vuelva a iniciar sesión en la ventana emergente, acepte todos los acuerdos, seleccione la ubicación de instalación de su preferencia (perfectamente puede dejar la que viene por defecto) y colocamos los siguientes checks
-
+```
 MATLAB
 Simulink
 Control System Toolbox
 Embedded Coder
-
+```
 ![Checks 1](https://github.com/Leo1307/Instalaci-n_de_Matlab/blob/main/Fig/checks1.png)
 ![Checks 2](https://github.com/Leo1307/Instalaci-n_de_Matlab/blob/main/Fig/checks2.png)
 ![Checks 3](https://github.com/Leo1307/Instalaci-n_de_Matlab/blob/main/Fig/checks3.png)
@@ -46,9 +47,9 @@ Se instalará aproximadamente 8.73 GB, la duración dependerá de la conexión a
 ## Paso 4: Credenciales
 
 Nuevamente hay que colocar las credenciales, en caso de no emerger la ventana de matlab en la terminal coloque:
-
+```bash
 matlab
-
+```
 # Materiales para el minitaller
 
 - Laptop 
