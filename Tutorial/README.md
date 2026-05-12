@@ -2,13 +2,13 @@
 
 ## Paso 1: entrar a "Add-Ons"
 
-![Add-Ons]()
+![Add-Ons](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/0.png)
 
 ## Paso 2: Buscar "Simulink Coder"
 
 Una vez encontrado, seleccionelo y presionar "install" para descargar el Simulink Coder.
 
-![Simulink Coder]()
+![Simulink Coder](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/Simulink%20coder.png)
 
 En caso de aparecer algun error ejecute lo siguiente en la terminal
 
@@ -23,17 +23,17 @@ Y vuelva a intalar simulink coder
 
 Una vez encontrado, seleccionelo y presionar "install" para descargar el Simulink Support Package for Arduino Hardware.
 
-![Simulink Support Package for Arduino Hardware]()
+![Simulink Support Package for Arduino Hardware](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/1.png)
 
 ## Paso 4: Configuración y verificación de compatibilidad con arduino
 
 Salga de Add-Ons y vaya a la terminal principal de matlab, a un costado a la izquierda esta un simbolo de Add-Ons, presione allí. En installed, busque Simulink Support Package for Arduino Hardware, presione click derecho y luego setup
 
-![configuración de Simulink Support Package for Arduino Hardware]()
+![configuración de Simulink Support Package for Arduino Hardware](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/3.png)
 
 Conecte su Arduino y presione "Next" hasta llegar a la pestsña de test(Matlab reconoce automaticamente el puerto de su arduino).
 
-![Arduino]() 
+![Arduino](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/4.png) 
 
 Presione test conection, este comprabara que la comunicación entre matlab y el arduino sean correctas.
 
@@ -85,34 +85,34 @@ Solución 2
 
 2. Paso ambas pruebas
 
-![Test completo]() 
+![Test completo](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/7.png) 
 
 ## Paso 5: Simulink
 
 Abra simulink y un nuevo blank model
 
-![Simulink]() 
-![Blank Model]()
+![Simulink](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/8.png) 
+![Blank Model](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/9.png)
 
 Presione Model Setting
 
-![Model Setting]()
+![Model Setting](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/10.png)
 
-Vaya a Hardware implementation y en Harware board seleccione su arduino
+Vaya a Hardware implementation y en Harware board seleccione su arduino, tambien tenemos que aasegurarnos de que el puerto donde esta conectado el arduino este seleccionado.
 
-![Hardware implementation]()
+![Hardware implementation](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/11.png)
 
 En solver coloque lo siguiente
 
-![Solver]()
+![Solver](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/12.png)
 
 Presione Library Browser, aqui se encuentran las principales herramientas encargadas de la comunicación con arduino.
 
-![Library]()
+![Library](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/13.png)
 
 Tambien puede dar doble click en la pantalla grande y buscar cada uno de los bloques a continuación (conectelos como se muestra en la imagen).
 
-![Circuito]()
+![Circuito](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/Circuito.png)
 
 Los bloques se llaman
 * Clock
@@ -317,4 +317,4 @@ end
 +
 Para generar y cargar el codigo en arduino vaya a Harware y presione "Build, Deploy & Start"
 
-![Build, Deploy & Start]()
+![Build, Deploy & Start](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/Build%2C%20Deploy%20%26%20Start.png)
