@@ -313,8 +313,13 @@ y_dash = 0;
 end
 ```
 
+Para observar el código generado haga click en embedded coder en apps
 
-+
+![Coder]()
+
+
 Para generar y cargar el codigo en arduino vaya a Harware y presione "Build, Deploy & Start"
 
 ![Build, Deploy & Start](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/Build%2C%20Deploy%20%26%20Start.png)
+
+
