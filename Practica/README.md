@@ -8,7 +8,7 @@ matlab
 ```
 Haga click en simulink y luego en "Blank Model"
 
-![Constant](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/9.png)
+![Blank Model](https://github.com/Leo1307/Simulink_como_herramienta_de_generacion_automatica_de_codigo/blob/main/Fig/9.png)
 
 ## Paso 2: Añade los bloques a usar
 
